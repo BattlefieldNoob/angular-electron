@@ -1,0 +1,29 @@
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .background {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+
+    .image {
+      flex: 15;
+      background: url(../../../assets/background.jpg) no-repeat ;
+      object-fit: contain;
+    }
+
+    .title {
+      flex: 1;
+      color: white;
+      margin: 0;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+  }
+}
